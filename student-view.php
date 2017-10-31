@@ -62,6 +62,11 @@
 		</script>
 	</head>
 	<body>
+
+        <form method="POST" action="logout.php">
+            <input type="submit" value="Logout">
+        </form>
+
 		<div class="search">
 			<input type="search" id="searchForBook" placeholder="Search book">
 			<button type="submit" onclick="bookSearch();">Search</button>

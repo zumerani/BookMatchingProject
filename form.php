@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
+
+    <form method="POST" action="logout.php">
+        <input type="submit" value="Logout">
+    </form>
+
+
 	<form action="professor.php" method="POST">
 		Title: <input type="text" name="title"><br>
 		Author First Name: <input type="text" name="firstName"><br>
