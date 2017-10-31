@@ -9,7 +9,6 @@ if ($_SESSION['loggedIn'])
 if ($_SESSION['uid'])
 {
     unset($_SESSION['uid']);
-    echo "Here!";
 }
 else
 {
